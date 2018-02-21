@@ -1,6 +1,6 @@
 {
   "name": "js-test-gen-atom",
-  "main": "./lib/test-gen",
+  "main": "./lib/js-test-gen",
   "version": "0.0.0",
   "description": "An atom plugin using js-test-gen to create test boilerplate",
   "keywords": [],
