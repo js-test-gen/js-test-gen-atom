@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Generate Test Template",
+        "command": "js-test-gen:generateTestTemplate"
+      },
+      {
+        "label": "Generate Test",
+        "command": "js-test-gen:generateTest"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "js-test-gen",
+          "submenu": [
+            {
+              "label": "Generate test",
+              "command": "js-test-gen:generateTestTemplate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

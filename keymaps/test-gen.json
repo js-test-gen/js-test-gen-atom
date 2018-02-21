@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "js-test-gen:generateTestTemplate",
+    "ctrl-alt-g": "js-test-gen:generateTest"
+  }
+}

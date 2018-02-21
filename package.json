@@ -1,0 +1,26 @@
+{
+  "name": "js-test-gen-atom",
+  "main": "./lib/test-gen",
+  "version": "0.0.0",
+  "description": "An atom plugin using js-test-gen to create test boilerplate",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "js-test-gen:generateTestTemplate",
+      "js-test-gen:generateTest"
+    ]
+  },
+  "repository": "https://github.com/atom/js-test-gen",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "prettier": "^1.10.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.17.0"
+  }
+}

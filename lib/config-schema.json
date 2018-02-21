@@ -1,0 +1,13 @@
+{
+  "testDirName": {
+    "description":
+      "Set the directory name for where test will be saved to. If not set, the test will be saved to the current directory",
+    "type": "string",
+    "default": ""
+  },
+  "testSufix": {
+    "description": "Appends a string to your test file E.G: 'myfile-test.js'",
+    "type": "string",
+    "default": "-test"
+  }
+}
