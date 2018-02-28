@@ -6,8 +6,19 @@
     "default": ""
   },
   "testSufix": {
-    "description": "Appends a string to your test file E.G: 'myfile-test.js'",
+    "description": "Appends a string to your test file E.G: 'myfile.test.js'",
     "type": "string",
-    "default": "-test"
+    "default": ".test"
+  },
+  "typeSystem": {
+    "description":
+      "Specify if the code the tests are being generated form contain a type system I.E flow/tyescript",
+    "type": "string",
+    "default": "",
+    "enum": [
+      { "value": "", "description": "None" },
+      { "value": "FLOW", "description": "Flow" },
+      { "value": "TYPESCRIPT", "description": "TypeScript" }
+    ]
   }
 }
