@@ -12,7 +12,7 @@
   },
   "typeSystem": {
     "description":
-      "Specify if the code the tests are being generated form contain a type system I.E flow/tyescript",
+      "Specify if the code the tests are being generated for contain a type system I.E flow/tyescript",
     "type": "string",
     "default": "",
     "enum": [
