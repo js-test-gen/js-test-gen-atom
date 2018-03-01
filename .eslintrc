@@ -1,13 +1,24 @@
 {
   "env": {
-    "node": true,
-    "browser": true
+    "browser": false,
+    "commonjs": true,
+    "es6": true,
+    "node": true
   },
-  "extends": "eslint:recommended",
-  "parser": "babel-eslint",
+  "parserOptions": {
+     "ecmaFeatures": {
+       "jsx": true
+      },
+      "sourceType": "module"
+  },
   "rules": {
-    "strict": 0,
-    "no-console": 1
+    "no-const-assign": "warn",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "constructor-super": "warn",
+    "valid-typeof": "warn"
   },
   "globals": {
     "atom": true
