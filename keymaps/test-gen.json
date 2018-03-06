@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-g": "js-test-gen: Generate Test Template",
-    "ctrl-alt-s": "js-test-gen: Generate Test From Selection"
+    "ctrl-alt-g": "js-test-gen: generate-test-template",
+    "ctrl-alt-s": "js-test-gen: generate-test-from-selection"
   }
 }

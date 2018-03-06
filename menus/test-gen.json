@@ -2,12 +2,12 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Generate Test Template",
-        "command": "js-test-gen: Generate Test Template"
+        "label": "generate-test-template",
+        "command": "js-test-gen: generate-test-template"
       },
       {
-        "label": "Generate Test From Selection",
-        "command": "js-test-gen: Generate Test from Selection"
+        "label": "generate-test-from-selection",
+        "command": "js-test-gen: generate-test-from-selection"
       }
     ]
   },
@@ -20,11 +20,11 @@
           "submenu": [
             {
               "label": "Generate Test",
-              "command": "js-test-gen: Generate Test Template"
+              "command": "js-test-gen: generate-test-template"
             },
             {
-              "label": "Generate Test From Selection",
-              "command": "js-test-gen: Generate Test from Selection"
+              "label": "generate-test-from-selection",
+              "command": "js-test-gen: generate-test-from-selection"
             }
           ]
         }

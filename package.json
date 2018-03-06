@@ -6,8 +6,8 @@
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
-      "js-test-gen: Generate Test Template",
-      "js-test-gen: Generate Test From Selection"
+      "js-test-gen: generate-test-template",
+      "js-test-gen: generate-test-from-selection"
     ]
   },
   "repository": "https://github.com/atom/js-test-gen",
