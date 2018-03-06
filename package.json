@@ -1,9 +1,8 @@
 {
   "name": "js-test-gen-atom",
   "main": "./lib/js-test-gen",
-  "version": "0.0.0",
-  "description":
-    "Js-test-gen-atom generates test templates from your default/named exports.",
+  "version": "0.1.0",
+  "description": "Js-test-gen-atom generates test templates from your default/named exports.",
   "keywords": [
     "unit-test",
     "mocha",
@@ -29,7 +28,11 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["eslint", "prettier-eslint --write", "git add"]
+    "*.js": [
+      "eslint",
+      "prettier-eslint --write",
+      "git add"
+    ]
   },
   "dependencies": {
     "babel-core": "^6.26.0",
