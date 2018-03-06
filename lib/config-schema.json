@@ -1,7 +1,7 @@
 {
   "testDirName": {
     "description":
-      "Set the directory name for where test will be saved to. If not set, the test will be saved to the current directory",
+      "Set the directory name for where the test template will be saved to. If not set, the test will be saved to the current directory",
     "type": "string",
     "default": ""
   },

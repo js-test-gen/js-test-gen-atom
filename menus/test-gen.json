@@ -3,11 +3,11 @@
     "atom-text-editor": [
       {
         "label": "Generate Test Template",
-        "command": "js-test-gen:generateTestTemplate"
+        "command": "js-test-gen: Generate Test Template"
       },
       {
-        "label": "Generate Test",
-        "command": "js-test-gen:generateTest"
+        "label": "Generate Test From Selection",
+        "command": "js-test-gen: Generate Test from Selection"
       }
     ]
   },
@@ -19,8 +19,12 @@
           "label": "js-test-gen",
           "submenu": [
             {
-              "label": "Generate test",
-              "command": "js-test-gen:generateTestTemplate"
+              "label": "Generate Test",
+              "command": "js-test-gen: Generate Test Template"
+            },
+            {
+              "label": "Generate Test From Selection",
+              "command": "js-test-gen: Generate Test from Selection"
             }
           ]
         }
