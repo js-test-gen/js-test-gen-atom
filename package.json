@@ -2,15 +2,23 @@
   "name": "js-test-gen-atom",
   "main": "./lib/js-test-gen",
   "version": "0.0.0",
-  "description": "An atom plugin using js-test-gen to create test boilerplate",
-  "keywords": [],
+  "description":
+    "Js-test-gen-atom generates test templates from your default/named exports.",
+  "keywords": [
+    "unit-test",
+    "mocha",
+    "jest",
+    "js-test-gen",
+    "atom-plugin",
+    "javascript"
+  ],
   "activationCommands": {
     "atom-workspace": [
       "js-test-gen: generate-test-template",
       "js-test-gen: generate-test-from-selection"
     ]
   },
-  "repository": "https://github.com/atom/js-test-gen",
+  "repository": "https://github.com/js-test-gen/js-test-gen-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -21,11 +29,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint",
-      "prettier-eslint --write",
-      "git add"
-    ]
+    "*.js": ["eslint", "prettier-eslint --write", "git add"]
   },
   "dependencies": {
     "babel-core": "^6.26.0",
