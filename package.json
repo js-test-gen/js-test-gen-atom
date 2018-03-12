@@ -1,7 +1,7 @@
 {
   "name": "js-test-gen-atom",
   "main": "./lib/js-test-gen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Js-test-gen-atom generates test templates from your default/named exports.",
   "keywords": [
     "unit-test",
